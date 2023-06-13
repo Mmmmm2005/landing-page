@@ -1,0 +1,38 @@
+* {
+    font-family: 'Bahnschrift';
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(104, 104, 104);
+    align-content: center;
+}
+
+.firstheader {
+    display:flex;
+    align-items: center;
+    justify-content:  space-between;
+    padding: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 400;
+    gap: 7rem;
+}
+
+a.menu {
+    text-decoration: none;
+    color: black;
+} 
+
+a.menu:hover {
+    color: rgb(53, 53, 53);
+}
