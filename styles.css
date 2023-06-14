@@ -13,7 +13,7 @@ img {
 .header {
     display: flex;
     flex-direction: column;
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(200, 200, 200);
     align-content: center;
 }
 
@@ -61,6 +61,29 @@ img {
     padding: 75px;
     border-radius: 15px;
     border: 5px solid #000000;
+}
+
+.mid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+}
+
+.quote,
+.credit {
+    width: 700px;
+}
+
+.quote {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.credit {
+    display: flex;
+    justify-content: end;
 }
 
 a.menu {
