@@ -6,6 +6,10 @@ body {
     margin: 0px;
 }
 
+img {
+    border-radius: 20px;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -23,9 +27,40 @@ body {
 .menu {
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 600;
     gap: 7rem;
+}
+
+.hdr1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mid1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.lst {
+    display: flex;
+    gap: 40px;
+}
+
+.couple {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.box {
+    padding: 75px;
+    border-radius: 15px;
+    border: 5px solid #000000;
 }
 
 a.menu {
