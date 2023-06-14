@@ -86,6 +86,11 @@ img {
     justify-content: end;
 }
 
+.credit p {
+    font-weight: 600;
+    font-size: 30px;
+}
+
 a.menu {
     text-decoration: none;
     color: black;
@@ -125,6 +130,34 @@ a.menu:hover {
     font-size: 20px;
 }
 
+.mid3 {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    background-color: #405cf5;
+    justify-content: space-between;
+    padding: 70px;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.bannertext1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.bannertext2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
 .subutton {
   appearance: button;
   backface-visibility: hidden;
@@ -160,4 +193,9 @@ a.menu:hover {
 
 .subutton:focus {
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+.banner .subutton {
+    width: 300px;
+    border: 2px solid #fff;
 }
